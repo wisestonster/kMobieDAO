@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jerry Jung",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
+    "dotenv": "^16.0.3"
+  }
 }
