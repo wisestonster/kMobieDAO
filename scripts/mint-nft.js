@@ -6,9 +6,9 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
-const contract = require("../artifacts/contracts/RomanticNFT.sol/RomanticNFT.json")
+const contract = require("../artifacts/contracts/KMovieNFT.sol/KMovieNFT.json")
 // 컨트랙트 배포 주소 교체 
-const contractAddress = "0x7350DE13112F443D3d10a4E52aFDA98Bc17EdbFF"
+const contractAddress = "0x67919Ddf85495F7639514b06367cb366E18B969d"
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 async function mintNFT(tokenURI) {
@@ -49,4 +49,4 @@ async function mintNFT(tokenURI) {
     })
 }
 
-mintNFT('https://gateway.pinata.cloud/ipfs/QmVtSx3GD25QUTXacwNdPesWnTzxyCamDXrceD65nuRGQq')
+mintNFT('https://gateway.pinata.cloud/ipfs/QmTgSVRmCbeMCMbg425RxBjVSp8GqKscsAFxRpws6y46ky')
