@@ -1,20 +1,16 @@
 {
     "attributes": [
       {
-        "trait_type": "Roles",
-        "value": "Developer"
+        "trait_type": "Type",
+        "value": "Premier"
       },
       {
-        "trait_type": "Sex",
-        "value": "Male"
-      },
-      {
-        "trait_type": "Favorite",
-        "value": "50 First Dates"
+        "trait_type": "Class",
+        "value": "Founder"
       }
     ],
-    "description": "We are to transform the K-Movie industry into a Web3-based Movie Ecosystem",
-    "image": "https://gateway.pinata.cloud/ipfs/QmaTgMTkpMxC3QMAKXPn13u6mzC7uSbsAAR1Pdc6QyepVs",
+    "description": "We transform the K-movie with the Web3.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUR9kHoUy7LA2EEW1CwtKrbaEXruyFor1HntLxW7tSSYK",
     "name": "KMovieDAO Membership"
   }
   

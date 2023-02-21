@@ -8,7 +8,7 @@ const web3 = createAlchemyWeb3(API_URL)
 
 const contract = require("../artifacts/contracts/KMovieNFT.sol/KMovieNFT.json")
 // 컨트랙트 배포 주소 교체 
-const contractAddress = "0x67919Ddf85495F7639514b06367cb366E18B969d"
+const contractAddress = "0xb216db86db31a87f2d328CC0Dea95CCAab447EB1"
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 async function mintNFT(tokenURI) {
@@ -49,4 +49,4 @@ async function mintNFT(tokenURI) {
     })
 }
 
-mintNFT('https://gateway.pinata.cloud/ipfs/QmTgSVRmCbeMCMbg425RxBjVSp8GqKscsAFxRpws6y46ky')
+mintNFT('https://gateway.pinata.cloud/ipfs/Qmbonvbe3oH9xmZe3LtPeU3kvu1Evs2VXcJqWvQuxvB2en')
